@@ -1,7 +1,7 @@
 package demo.model.dao;
 
 import java.math.BigDecimal;
-
+/** one of the daos*/
 public class Customers {
     /**
      *
