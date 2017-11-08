@@ -1,0 +1,85 @@
+2017-11-07 12:43:57.383 DEBUG - getting the Session Factory
+2017-11-07 12:56:47.247 DEBUG - getting the Session Factory
+2017-11-07 13:00:05.691 DEBUG - getting the Session Factory
+2017-11-07 13:09:40.413 DEBUG - getting the Session Factory
+2017-11-07 13:56:30.087 DEBUG - getting the Session Factory
+2017-11-07 13:57:16.555 DEBUG - getting the Session Factory
+2017-11-07 14:00:34.432 DEBUG - getting the Session Factory
+2017-11-07 14:02:45.137 DEBUG - getting the Session Factory
+2017-11-07 14:05:00.568 DEBUG - getting the Session Factory
+2017-11-07 14:10:26.413 DEBUG - getting the Session Factory
+2017-11-07 14:20:21.081 DEBUG - getting the Session Factory
+2017-11-07 14:21:42.128 DEBUG - getting the Session Factory
+2017-11-07 14:22:33.886 DEBUG - getting the Session Factory
+2017-11-07 14:22:36.392 DEBUG - new_DEPT_id..10
+2017-11-07 14:22:36.406 DEBUG - emp_id..7839
+2017-11-07 14:22:36.406 DEBUG - new_DEPT_name..ACCOUNTING
+2017-11-08 11:28:53.032 DEBUG - getting the Session Factory
+2017-11-08 11:28:53.166 DEBUG - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2017-11-08 11:28:53.510 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 11:28:53.510 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 11:28:53.510 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 11:28:53.510 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 11:28:54.901 DEBUG - Opening JDBC Connection
+2017-11-08 11:28:56.053 DEBUG - Created connection 1251219927.
+2017-11-08 11:28:56.057 DEBUG - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@4a9419d7]
+2017-11-08 11:28:56.058 DEBUG - ==>  Preparing: select DEPTNO, DNAME, LOC from DBUSER.DEPT WHERE ( DNAME = ? ) 
+2017-11-08 11:28:56.465 DEBUG - ==> Parameters: SALES(String)
+2017-11-08 11:28:56.699 DEBUG - <==      Total: 1
+2017-11-08 11:28:56.699 DEBUG - department OPERATIONS has the number: 30
+2017-11-08 11:28:56.715 DEBUG - ==>  Preparing: select EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO from DBUSER.EMP WHERE ( DEPTNO = ? ) 
+2017-11-08 11:28:56.715 DEBUG - ==> Parameters: 30(Short)
+2017-11-08 11:28:56.762 DEBUG - <==      Total: 6
+2017-11-08 11:28:56.777 DEBUG - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@4a9419d7]
+2017-11-08 11:28:56.777 DEBUG - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@4a9419d7]
+2017-11-08 11:28:56.777 DEBUG - Returned connection 1251219927 to pool.
+2017-11-08 11:28:56.777 DEBUG - departments operations has 6
+2017-11-08 11:28:56.777 DEBUG - Employee: MARTIN with number: 7654 is choosen
+2017-11-08 12:04:05.884 DEBUG - getting the Session Factory
+2017-11-08 12:04:05.946 DEBUG - Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2017-11-08 12:04:06.189 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 12:04:06.189 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 12:04:06.189 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 12:04:06.189 DEBUG - PooledDataSource forcefully closed/removed all connections.
+2017-11-08 12:04:07.673 DEBUG - Opening JDBC Connection
+2017-11-08 12:04:08.737 DEBUG - Created connection 780843029.
+2017-11-08 12:04:08.743 DEBUG - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:08.745 DEBUG - ==>  Preparing: select DEPTNO, DNAME, LOC from DBUSER.DEPT WHERE ( DNAME = ? ) 
+2017-11-08 12:04:09.073 DEBUG - ==> Parameters: SALES(String)
+2017-11-08 12:04:09.245 DEBUG - <==      Total: 1
+2017-11-08 12:04:09.245 DEBUG - department SALES has the number: 30
+2017-11-08 12:04:09.245 DEBUG - ==>  Preparing: select EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO from DBUSER.EMP WHERE ( DEPTNO = ? ) 
+2017-11-08 12:04:09.261 DEBUG - ==> Parameters: 30(Short)
+2017-11-08 12:04:09.261 DEBUG - <==      Total: 6
+2017-11-08 12:04:09.261 DEBUG - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.261 DEBUG - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.261 DEBUG - Returned connection 780843029 to pool.
+2017-11-08 12:04:09.277 DEBUG - departments SALES has 6
+2017-11-08 12:04:09.277 DEBUG - Employee: MARTIN with number: 7654 is chosen
+2017-11-08 12:04:09.277 DEBUG - Opening JDBC Connection
+2017-11-08 12:04:09.277 DEBUG - Checked out connection 780843029 from pool.
+2017-11-08 12:04:09.277 DEBUG - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.277 DEBUG - ==>  Preparing: select DEPTNO, DNAME, LOC from DBUSER.DEPT WHERE ( DNAME = ? ) 
+2017-11-08 12:04:09.277 DEBUG - ==> Parameters: OPERATIONS(String)
+2017-11-08 12:04:09.277 DEBUG - <==      Total: 1
+2017-11-08 12:04:09.277 DEBUG - department Operations has the number: 40
+2017-11-08 12:04:09.277 DEBUG - ==>  Preparing: {CALL PK_REASSIGN.REASSIGN_EMP(?, ?,?)} 
+2017-11-08 12:04:09.308 DEBUG - ==> Parameters: 7654(Short), 40(Short)
+2017-11-08 12:04:09.542 DEBUG - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.542 DEBUG - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.542 DEBUG - Returned connection 780843029 to pool.
+2017-11-08 12:04:09.542 DEBUG - Now the parameters Map contain:
+2017-11-08 12:04:09.542 DEBUG - new_DEPT_id..40
+2017-11-08 12:04:09.542 DEBUG - emp_id..7654
+2017-11-08 12:04:09.542 DEBUG - new_DEPT_name..OPERATIONS
+2017-11-08 12:04:09.558 DEBUG - Checking if the employee is now assigned to operations in the database..
+2017-11-08 12:04:09.558 DEBUG - Opening JDBC Connection
+2017-11-08 12:04:09.558 DEBUG - Checked out connection 780843029 from pool.
+2017-11-08 12:04:09.558 DEBUG - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.558 DEBUG - ==>  Preparing: select EMPNO, ENAME, JOB, MGR, HIREDATE, SAL, COMM, DEPTNO from DBUSER.EMP where EMPNO = ? 
+2017-11-08 12:04:09.558 DEBUG - ==> Parameters: 7654(Short)
+2017-11-08 12:04:09.558 DEBUG - <==      Total: 1
+2017-11-08 12:04:09.558 DEBUG - Resetting autocommit to true on JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.558 DEBUG - Closing JDBC Connection [oracle.jdbc.driver.T4CConnection@2e8ab815]
+2017-11-08 12:04:09.558 DEBUG - Returned connection 780843029 to pool.
+2017-11-08 12:04:09.558 DEBUG - The employee is assigned to the department number: 40

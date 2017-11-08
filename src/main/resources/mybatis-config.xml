@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<environments default="local">
+		<environment id="local">
+			<transactionManager type="JDBC" />
+			<dataSource type="POOLED">
+				<property name="driver" value="oracle.jdbc.driver.OracleDriver" />
+				<property name="url" value="jdbc:oracle:thin:@//localhost:1521/xe" />
+				<property name="username" value="dbuser" />
+				<property name="password" value="dbuser" />
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<mapper resource="sql-maps/CustomersMapper.xml" />
+		<mapper resource="sql-maps/DepartmentMapper.xml" />
+		<mapper resource="sql-maps/EmployeeMapper.xml" />
+		<mapper resource="sql-maps/OrdersItemsMapper.xml" />
+		<mapper resource="sql-maps/OrdersMapper.xml" />
+		<mapper resource="sql-maps/ProductInfoMapper.xml" />
+		<mapper resource="sql-maps/UsersMapper.xml" />
+	</mappers>
+</configuration>
