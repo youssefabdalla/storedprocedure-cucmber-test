@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2258837195,
+  "duration": 1924550345,
   "status": "passed"
 });
 formatter.scenario({
@@ -43,21 +43,21 @@ formatter.match({
   "location": "TransferEmployeeStepDefinitions.thereIsAnEmployeeInDepartmentSales()"
 });
 formatter.result({
-  "duration": 2057866129,
+  "duration": 2300073718,
   "status": "passed"
 });
 formatter.match({
   "location": "TransferEmployeeStepDefinitions.reassignedToDepartmentOperations()"
 });
 formatter.result({
-  "duration": 277321512,
+  "duration": 48141576,
   "status": "passed"
 });
 formatter.match({
   "location": "TransferEmployeeStepDefinitions.theEmployeeIsAssignedToDepartmentOperations()"
 });
 formatter.result({
-  "duration": 12318249,
+  "duration": 13680906,
   "status": "passed"
 });
 });
